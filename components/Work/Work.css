@@ -1,0 +1,58 @@
+#Work{
+  padding: 40px;
+}
+
+#place-date-div{
+  width: 300px;
+}
+
+#experience-div{
+  width: 100%;
+}
+
+#work1, #work2, #work3{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+h5{
+  color: var(--secondary-color);
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+h6{
+  color: var(--secondary-color);
+  font-weight: 300;
+  font-size: 10px;
+  letter-spacing: 1px;
+  }
+
+#Work p{
+  margin-left: 40px;
+  color: var(--terciary-color);
+  margin-top: 5px;
+}
+
+
+
+/*Mobile sizing*/
+@media (max-width: 700px){
+  #Work{
+    width: 100%;
+  }
+
+  #work1, #work2, #work3{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  }
+
+  #place-date-div{
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}

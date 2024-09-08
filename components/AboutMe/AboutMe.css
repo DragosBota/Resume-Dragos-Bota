@@ -1,0 +1,54 @@
+#About{
+  padding: 20px 40px 40px 40px;
+}
+
+#my_description_text{
+  margin-top: 5px;
+}
+
+#about_grid{
+  display: grid;
+  height: 360px;
+  grid-template-columns: repeat(12, 1fr) ;
+  grid-template-rows: repeat(5, 1fr) ;
+  margin-top: 40px;
+}
+
+#img_div{
+  background-image: url('https://images.unsplash.com/photo-1612284042297-5f63f207c7af?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTl8fHVsdHJhJTIwd2lkZSUyMGFuZ2xlfGVufDB8fDB8fHww');
+  background-size: cover;
+  background-position-y: bottom;
+  box-shadow:  0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  grid-column: 2 / 12 ;
+  grid-row: 1 / 5;
+}
+
+#contact_container{
+  grid-column: 7 / 10;
+  grid-row: 4 / 6;
+  height: 180px;
+  width: 250px;
+  background-color:#EAE0D5;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+#contact_title{
+  text-transform: uppercase;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  color: #363636e1;
+}
+
+#contact_text{
+  color: #8b8b8b;
+}
+
+
+/*Mobile sizing*/
+@media (max-width: 700px){
+  #About{
+    width: 100%;
+  }
+}
